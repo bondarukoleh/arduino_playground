@@ -1,2 +1,3 @@
-# arduino_playground
-Playing around with Arduino
+# Arduino
+
+Playing with this stuff.
