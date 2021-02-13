@@ -94,12 +94,16 @@ String indexPage = R"=====(
         return fetch('/logs')
           .then(response => {
             if(response.ok) {
+              console.log('The response is ok');
               return response.text()
             } else {
               return 'Could not reach the logs from server'
             }
           })
-          .catch(err => console.log(err))
+          .catch(err => {
+            console.log(err);
+            return 'Could not reach the logs from server'
+          })
       }
 
 
