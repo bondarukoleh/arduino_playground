@@ -4,7 +4,7 @@ Playing with this stuff.
 
 ## Autowatering plant project
 #### Scheme
-![Autowatering Plant](https://github.com/bondarukoleh/arduino_playground/blob/main/assets/scheme.png?raw=true)
+![Autowatering Plant](/autowatering.plant/assets/scheme.png)
 
 #### Consist off:
 1. ESP8266 module - how it works
